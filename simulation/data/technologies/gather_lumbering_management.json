@@ -1,0 +1,19 @@
+{
+	"genericName": "Forest Management",
+	"description": "Early edicts prohibited wanton deforestation and encouraged managing trees for better yield.",
+	"cost": {
+		"wood": 600,
+		"metal": 300
+	},
+	"supersedes": "gather_lumbering_specialized_laborers",
+	"requirements": {"civ": "zapo", "tech": "phase_city" },
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "wood_axe_03.png",
+	"researchTime": 60,
+	"tooltip": "Workers +25% wood gather rate.",
+	"modifications": [
+		{ "value": "ResourceGatherer/Rates/wood.tree", "multiply": 1.25 }
+	],
+	"affects": ["Worker"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

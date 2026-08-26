@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_civilian">
+  <Builder>
+    <Entities datatype="tokens">
+      structures/zapo/ball_court
+      structures/zapo/palace
+      structures/zapo/range
+    </Entities>
+  </Builder>
+  <Identity>
+    <Civ>zapo</Civ>
+    <Lang>nahuatl</Lang>
+    <GenericName>Zapotec Settlers</GenericName>
+    <SpecificName>Tzapotēcatl Be'ena'a</SpecificName>
+    <Icon>units/zapo/support_citizen.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/zapotecs/citizen_{phenotype}.xml</Actor>
+  </VisualActor>
+</Entity>

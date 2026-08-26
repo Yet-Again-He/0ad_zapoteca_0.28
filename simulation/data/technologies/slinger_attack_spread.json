@@ -1,0 +1,30 @@
+{
+	"genericName": "Obsidian Shrapnel",
+	"description": "The slingers switch from heavy single stones to bags of obsidian shrapnel, drastically improving chances of wounding while decreasing penetration.",
+	"cost": {
+		"food": 300,
+		"metal": 100
+	},
+	"requirements": {
+		"all": [
+			{ "tech": "phase_town" },
+			{
+				"any": [
+					{ "civ": "zapo" }
+				]
+			}
+		]
+	},
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "archery_tradition.png",
+	"researchTime": 40,
+	"tooltip": "Slingers −50% ranged attack spread, but -10 attack damage.",
+	"modifications": [
+		{ "value": "Attack/Ranged/Projectile/Spread", "multiply": 0.5 },
+		{ "value": "Attack/Ranged/Damage/Hack", "multiply": 0.9 },
+		{ "value": "Attack/Ranged/Damage/Pierce", "multiply": 0.9 },
+		{ "value": "Attack/Ranged/Damage/Crush", "multiply": 0.9 }
+	],
+	"affects": ["Slinger"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

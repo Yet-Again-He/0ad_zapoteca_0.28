@@ -1,0 +1,9 @@
+{
+	"type": "global",
+	"affects": ["Player"],
+	"modifications": [
+		{ "value": "ResourceTrickle/Rates/stone", "add": 1 }
+	],
+	"auraName": "Mountain Debris",
+	"auraDescription": "The Founder had constructed Monte Albán using the stone from flattening a mountain top."
+}

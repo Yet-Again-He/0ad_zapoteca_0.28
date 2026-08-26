@@ -1,0 +1,22 @@
+{
+	"genericName": "Water Management",
+	"cost": {
+		"wood": 300,
+		"metal": 200
+	},
+	"requirements": {
+		"all": [
+			{ "tech": "phase_city" }, 
+			{ "civ": "zapo" }
+		]
+	},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "alternating_fields.png",
+	"researchTime": 20,
+	"tooltip": "Corn Fields and Farmsteads +200% health, +15% speed reduction for enemy units.",
+	"modifications": [
+		{ "value": "Health/Max", "multiply": 3 }
+	],
+	"affects": ["Field"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

@@ -1,0 +1,24 @@
+{
+	"genericName": "Atlatl Tradition",
+	"description": "Mesoamericans used spear-throwers to such an extent that their name for it (the 'Atlatl') is now common usage.",
+	"cost": {
+		"food": 300,
+		"metal": 100
+	},
+	"requirements": {
+		"all": [
+			{ "tech": "phase_village" },
+			{ "civ": "zapo" }
+		]
+	},
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "archery_tradition.png",
+	"researchTime": 40,
+	"tooltip": "Javelineers +30% attack range, but -10% attack speed.",
+	"modifications": [
+		{ "value": "Attack/Ranged/MaxRange", "multiply": 1.3 },
+	    { "value": "Attack/Ranged/RepeatTime", "multiply": 1.1 }
+	],
+	"affects": ["Javelineer"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

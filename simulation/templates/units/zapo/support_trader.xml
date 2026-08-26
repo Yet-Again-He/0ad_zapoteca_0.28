@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_trader">
+  <Footprint replace="">
+    <Circle radius="1.5"/>
+    <Height>3.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>zapo</Civ>
+    <Lang>nahuatl</Lang>
+    <GenericName>Mesoamerican Trader</GenericName>
+    <SpecificName>Pochteca</SpecificName>
+    <Icon>units/zapo/support_trader.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/zapotecs/trader.xml</Actor>
+  </VisualActor>
+</Entity>

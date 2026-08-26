@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged_javelineer">
+  <Builder>
+    <Entities datatype="tokens"> structures/zapo/ball_court structures/zapo/palace structures/zapo/range</Entities>
+  </Builder>
+  <Identity>
+    <Civ>zapo</Civ>
+    <Lang>nahuatl</Lang>
+    <SelectionGroupName>units/zapo/infantry_javelineer_b</SelectionGroupName>
+    <SpecificName>Atlatlazani</SpecificName>
+    <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
+    <Icon>units/zapo/infantry_javelinist.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/zapo/infantry_javelineer_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/zapotecs/infantry_javelinist_b.xml</Actor>
+  </VisualActor>
+</Entity>

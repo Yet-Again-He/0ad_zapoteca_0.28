@@ -1,0 +1,11 @@
+{
+	"type": "global",
+	"affects": ["CivilCentre"],
+	"modifications": [
+		{ "value": "Cost/Resources/stone", "multiply": 0.7 },
+		{ "value": "Cost/Resources/wood", "multiply": 0.7 },
+		{ "value": "Cost/Resources/metal", "multiply": 0.7 }
+	],
+	"auraName": "Cultural Foundation",
+	"auraDescription": "The settlers had access to bountiful building material when they had began their new settlement of Monte Albán. Civic Centers -30% cost."
+}

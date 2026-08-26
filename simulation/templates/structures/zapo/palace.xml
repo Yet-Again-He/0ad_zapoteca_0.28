@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_special">
+  <Cost>
+    <BuildTime>200</BuildTime>
+    <Resources>
+      <stone>300</stone>
+      <wood>200</wood>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Square width="49" depth="30.0"/>
+    <Height>10.0</Height>
+  </Footprint>
+  <Health>
+    <Max>3000</Max>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_6x6</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>zapo</Civ>
+    <GenericName>Temple of conquest</GenericName>
+    <SpecificName>Coatépec</SpecificName>
+    <Classes datatype="tokens">
+      ConquestCritical
+      CivSpecific
+    </Classes>
+    <VisibleClasses datatype="tokens">
+	  Palace
+	</VisibleClasses>
+    <Icon>structures/stoa.png</Icon>
+    <Tooltip>Train Heroes and Noble Spearmen. Territory Root.</Tooltip>
+  </Identity>
+  <Loot>
+    <stone>80</stone>
+    <wood>40</wood>
+  </Loot>
+  <Obstruction>
+    <Static width="26.0" depth="26.0"/>
+  </Obstruction>
+  <ProductionQueue/>
+  <Researcher>
+    <Technologies datatype="tokens">
+      unlock_spies
+      spy_counter
+    </Technologies>
+  </Researcher>
+  <Sound>
+    <SoundGroups>
+      <select>interface/select/building/sel_broch.xml</select>
+      <constructed>interface/complete/building/complete_broch.xml</constructed>
+    </SoundGroups>
+  </Sound>
+  <TerritoryInfluence>
+    <Root>true</Root>
+    <Radius>40</Radius>
+    <Weight>40000</Weight>
+  </TerritoryInfluence>
+  <Trainer>
+    <BatchTimeModifier>0.7</BatchTimeModifier>
+    <Entities datatype="tokens"> units/{civ}/champion_infantry_spearman units/zapo/hero_lord_jaguar units/zapo/hero_night_king units/zapo/hero_rain_lord
+    </Entities>
+  </Trainer>
+  <Vision>
+    <Range>32</Range>
+  </Vision>
+  <VisualActor>
+    <FoundationActor>structures/fndn_9x6.xml</FoundationActor>
+    <Actor>structures/zapotecs/zapo_danzantes.xml</Actor>
+  </VisualActor>
+</Entity>

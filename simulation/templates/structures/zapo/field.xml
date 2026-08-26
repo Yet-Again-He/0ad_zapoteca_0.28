@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_resource_field">
+  <Auras datatype="tokens">
+    structures/field_traversal
+    structures/field_traversal_buff
+  </Auras>
+  <Identity>
+    <Civ>zapo</Civ>
+    <GenericName>Corn Field</GenericName>
+    <SpecificName>Rudxiiba Binii Xuba</SpecificName>
+    <Icon>structures/corn_field.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>structures/plot_field_tropic_maize.xml</Actor>
+  </VisualActor>
+</Entity>

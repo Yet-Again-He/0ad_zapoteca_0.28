@@ -1,0 +1,13 @@
+{
+    "type": "global",
+	"affects": ["Defensive"],
+	"modifications": [
+		{ "value": "Cost/BuildTime", "multiply": 0.75 },
+		{ "value": "Cost/Resources/food", "multiply": 0.9 },
+		{ "value": "Cost/Resources/wood", "multiply": 0.9 },
+		{ "value": "Cost/Resources/stone", "multiply": 0.9 },
+		{ "value": "Cost/Resources/metal", "multiply": 0.9 }
+	],
+	"auraName": "Territorial Proclamation",
+	"auraDescription":  "All defensive structures -25% buildtime, -10% cost."
+}

@@ -1,0 +1,24 @@
+{
+	"genericName": "Decorated shields",
+	"description": "Shields built with layers to support decorations for distinguishment and confusion of the eye.",
+	"cost": {
+		"wood": 500,
+		"metal": 400
+	},
+	"supersedes": "soldier_resistance_pierce_zapo_02",
+	"requirements": {
+		"all": [
+			{ "tech": "phase_city" },
+			{ "civ": "zapo" }
+		]
+	},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "shield_parma.png",
+	"researchTime": 60,
+	"tooltip": "Soldiers +2 pierce resistance.",
+	"modifications": [
+		{ "value": "Resistance/Entity/Damage/Pierce", "add": 2 }
+	],
+	"affects": ["Soldier"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

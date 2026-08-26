@@ -1,0 +1,9 @@
+{
+    "type": "global",
+	"affects": ["Player"],
+	"modifications": [
+		{ "value": "ResourceTrickle/Rates/metal", "add": 1 }
+	],
+	"auraName": "Spiritual Favor",
+	"auraDescription":  "The people offer support and sacrifice for the favor of the gods."
+}

@@ -1,0 +1,29 @@
+{
+	"genericName": "Iron Weapons",
+	"specificName": {
+		"zapo": "All Obsidian Blades"
+	},
+	"description": "Weapons are now crafted for war and not merely hunting in mind.",
+	"cost": {
+		"food": 350,
+		"metal": 250
+	},
+	"supersedes": "soldier_attack_melee_01",
+	"requirements": {
+		"all": [
+			{ "tech": "phase_town" },
+			{ "notciv": "zapo" }
+		]
+	},
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "sword_02.png",
+	"researchTime": 40,
+	"tooltip": "Soldiers +15% melee attack damage.",
+	"modifications": [
+		{ "value": "Attack/Melee/Damage/Hack", "multiply": 1.15 },
+		{ "value": "Attack/Melee/Damage/Pierce", "multiply": 1.15 },
+		{ "value": "Attack/Melee/Damage/Crush", "multiply": 1.15 }
+	],
+	"affects": ["Soldier !Elephant"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

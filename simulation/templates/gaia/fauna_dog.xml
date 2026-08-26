@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_fauna_herd_domestic">
+  <Auras datatype="tokens">
+    structures/corral_garrison_small
+  </Auras>
+  <Cost>
+    <BuildTime>50</BuildTime>
+    <Resources>
+      <food>75</food>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Square width="2.0" depth="4.0"/>
+    <Height>1.5</Height>
+  </Footprint>
+  <Health>
+    <Max>75</Max>
+  </Health>
+  <Identity>
+    <GenericName>Dog</GenericName>
+    <SpecificName>Iztquintli</SpecificName>
+    <Tooltip>Mesoamerican domestic dog.</Tooltip>
+    <Icon>gaia/fauna_wolf.png</Icon>
+  </Identity>
+  <ResourceSupply>
+    <Max>150</Max>
+    <MaxGatherers>4</MaxGatherers>
+  </ResourceSupply>
+  <Sound>
+    <SoundGroups>
+      <order_walk>voice/global/civ_dog_move.xml</order_walk>
+      <select>voice/global/civ_dog_bark.xml</select>
+      <walk>actor/mounted/movement/walk.xml</walk>
+      <run>actor/mounted/movement/walk.xml</run>
+      <death>actor/fauna/death/death_animal_gen.xml</death>
+      <trained>interface/complete/building/complete_kennel.xml</trained>
+    </SoundGroups>
+  </Sound>
+  <StatusBars>
+    <HeightOffset>2.5</HeightOffset>
+  </StatusBars>
+  <UnitMotion>
+    <WalkSpeed op="mul">0.45</WalkSpeed>
+    <Acceleration op="mul">0.45</Acceleration>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>fauna/wolf.xml</Actor>
+  </VisualActor>
+</Entity>

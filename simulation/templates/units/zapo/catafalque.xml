@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_catafalque">
+  <Auras datatype="tokens">
+    units/catafalques/zapo_catafalque_1
+    units/catafalques/zapo_catafalque_2
+  </Auras>
+  <Identity>
+    <Civ>zapo</Civ>
+    <GenericName>Zapotec Catafalque</GenericName>
+    <SpecificName>Founder of Monte Albán</SpecificName>
+  </Identity>
+</Entity>

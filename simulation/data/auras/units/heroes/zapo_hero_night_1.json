@@ -1,0 +1,14 @@
+{
+    "type": "range",
+    "radius": 30,
+	"affects": ["Hero", "Champion"],
+	"affectedPlayers": ["Enemy"],
+	"modifications": [
+		{ "value": "Resistance/Entity/Damage/Hack", "add": -1 },
+		{ "value": "Resistance/Entity/Damage/Pierce", "add": -1 },
+		{ "value": "Resistance/Entity/Damage/Crush", "add": -1 },
+		{ "value": "UnitMotion/WalkSpeed", "multiply": 0.9 }
+	],
+	"auraName": "Subduer of Nobility",
+	"auraDescription":  "All enemy heroes and champion units -1 hack, pierce, and crush resistance, -10% speed."
+}

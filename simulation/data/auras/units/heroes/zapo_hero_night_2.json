@@ -1,0 +1,9 @@
+{
+    "type": "global",
+	"affects": ["Structure"],
+	"modifications": [
+		{ "value": "Capturable/GarrisonRegenRate", "multiply": 2.0 }
+	],
+	"auraName": "Imperial Might",
+	"auraDescription":  "All structures gain +2 loyalty regeneration rate."
+}

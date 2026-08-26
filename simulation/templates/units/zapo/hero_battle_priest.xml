@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_healer">
+  <Auras datatype="tokens">
+    units/heroes/zapo_hero_priest_1
+    units/heroes/zapo_hero_priest_2
+  </Auras>
+  <Heal>
+    <Range>30</Range>
+  </Heal>
+  <Identity>
+    <Civ>zapo</Civ>
+    <Lang>nahuatl</Lang>
+    <GenericName>High Priest</GenericName>
+    <SpecificName>Ba’ate’e K’iin</SpecificName>
+    <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
+    <Icon>units/zapo/hero_battle_priest_1.png</Icon>
+  </Identity>
+  <UnitMotion>
+    <WalkSpeed>12</WalkSpeed>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/zapotecs/hero_healer.xml</Actor>
+  </VisualActor>
+</Entity>

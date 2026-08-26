@@ -1,0 +1,9 @@
+{
+	"name": "zapotecs",
+	"label": "Zapotecs",
+	"version": "0.28.0",
+	"url": "",
+	"description": "Adds the Zapotec civilization for 0 A.D. Empires Ascendant.",
+	"dependencies": ["0ad>=0.28.0"],
+	"type": "Factions"
+}

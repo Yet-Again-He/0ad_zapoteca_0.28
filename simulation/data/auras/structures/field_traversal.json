@@ -1,0 +1,11 @@
+{
+    "type": "range",
+    "radius": 17,
+	"affects": ["Soldier"],
+	"affectedPlayers": ["Enemy"],
+	"modifications": [
+		{ "value": "UnitMotion/WalkSpeed", "multiply": 0.8 }
+	],
+	"auraName": "Dense Plantstocks",
+	"auraDescription":  "All enemy units -20% speed when traversing a corn field."
+}

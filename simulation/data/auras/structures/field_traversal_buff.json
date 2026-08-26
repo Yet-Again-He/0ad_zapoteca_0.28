@@ -1,0 +1,12 @@
+{
+    "type": "range",
+    "radius": 17,
+	"affects": ["Soldier"],
+	"affectedPlayers": ["Enemy"],
+  	"requiredTechnology": "farming_water_management",
+	"modifications": [
+		{ "value": "UnitMotion/WalkSpeed", "multiply": 0.9 }
+	],
+	"auraName": "Water Management",
+	"auraDescription":  "All enemy slowed by an additional -10% speed when traversing a corn field."
+}

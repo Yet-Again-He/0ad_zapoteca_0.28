@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_archer">
+  <Identity>
+    <Civ>zapo</Civ>
+    <Lang>nahuatl</Lang>
+    <GenericName>Champion Archer</GenericName>
+    <SpecificName>Pachoa Yaotl</SpecificName>
+    <Icon>units/zapo/zapo_champion_archer.png</Icon>
+  </Identity>
+    <Upgrade>
+      <Melee>
+        <Entity>units/zapo/champion_infantry_swordsman</Entity>
+        <Tooltip>Switch to Macahuitl Sword.</Tooltip>
+        <Time>3</Time>
+        <Variant>upgrading</Variant>
+      </Melee>
+    </Upgrade>
+  <VisualActor>
+    <Actor>units/zapotecs/infantry_archer_c.xml</Actor>
+  </VisualActor>
+</Entity>

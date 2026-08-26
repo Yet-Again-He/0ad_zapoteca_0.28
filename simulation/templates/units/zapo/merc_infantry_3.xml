@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="merc_inf|template_unit_infantry_ranged_javelineer">
+  <Builder>
+    <Entities datatype="tokens"> structures/zapo/ball_court structures/zapo/palace structures/zapo/range</Entities>
+  </Builder>
+  <Identity>
+    <Civ>zapo</Civ>
+    <SpecificName>Teotihuacan Spear Thrower</SpecificName>
+    <SelectionGroupName>units/zapo/merc_infantry_3</SelectionGroupName>
+    <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
+    <Icon>units/zapo/merc_infantry_3.png</Icon>
+    <Requirements>
+      <Techs datatype="tokens">phase_town</Techs>
+    </Requirements>
+  </Identity>
+      <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/zapotecs/teotihuacan_javelinist.xml</Actor>
+  </VisualActor>
+</Entity>

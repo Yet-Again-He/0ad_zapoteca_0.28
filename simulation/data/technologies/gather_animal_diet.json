@@ -1,0 +1,17 @@
+{
+	"genericName": "Pastoral Cultivation",
+	"description": "Guide livestock feeding for efficiency.",
+	"cost": {
+		"food": 200,
+		"wood": 100
+	},
+	"requirements": { "tech": "phase_town" },
+	"icon": "cornucopia.png",
+	"researchTime": 40,
+	"tooltip": "Animals −10% resources costs.",
+	"modifications": [
+		{ "value": "Cost/Resources/food", "multiply": 0.9 }
+	],
+	"affects": ["Domestic"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="longsword|template_unit_champion_infantry_swordsman">
+  <Attack>
+    <Melee>
+      <AttackName>Macuahuitl</AttackName>
+    </Melee>
+  </Attack>
+  <Identity>
+    <Civ>zapo</Civ>
+    <Lang>nahuatl</Lang>
+    <GenericName>Macuahuitl Fanatic</GenericName>
+    <SpecificName>Nagual Yaotl</SpecificName>
+    <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
+    <Icon>units/zapo/zapo_champion_swordsman.png</Icon>
+    <Requirements>
+      <Techs datatype="tokens">-phase_city unlock_champion_infantry</Techs>
+    </Requirements>
+  </Identity>
+  <VisualActor>
+    <Actor>units/zapotecs/infantry_swordsman_c.xml</Actor>
+  </VisualActor>
+</Entity>

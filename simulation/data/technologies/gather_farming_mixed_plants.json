@@ -1,0 +1,24 @@
+{
+	"genericName": "Companion Planting",
+	"description": "Mixing beans, maize and squash to maintain fertility levels.",
+	"cost": {
+		"wood": 400,
+		"metal": 300
+	},
+	"supersedes": "gather_irrigation_canals",
+	"requirements": {
+		"all": [
+			{ "tech": "phase_city" },
+			{ "civ": "zapo" }
+		]
+	},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "olives.png",
+	"researchTime": 60,
+	"tooltip": "Workers +20% grain gather rate.",
+	"modifications": [
+		{ "value": "ResourceGatherer/Rates/food.grain", "multiply": 1.2 }
+	],
+	"affects": ["Worker"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

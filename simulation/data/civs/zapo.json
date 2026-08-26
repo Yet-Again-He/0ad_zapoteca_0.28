@@ -1,0 +1,86 @@
+{
+	"Code": "zapo",
+	"Culture": "meso",
+	"Music": [
+		{
+			"File": "Jaws_of_the_Jaguar.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Along_the_Nile.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Lost_World.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Forgotten_Tribe.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Cloud_People.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Old_New_World.ogg",
+			"Type": "peace"
+		}
+	],
+	"CivBonuses": [
+		{
+			"Name": "Savage Tactics",
+			"History": "Zapotec warriors preferred to be unencumbered so as to move swiftly upon the battlefield.",
+			"Description": "-1 armor, +20% speed."
+		},
+		{
+			"Name": "Battle Priests",
+			"History": "Battle Priests accompanied the warriors into battle, striking fear into the hearts of their enemies.",
+			"Description": "A unique Champion Healer unit is available in City Phase."
+		},
+		{
+			"Name": "Dense Cornstalks",
+			"History": "Mesoamericans had remarkable agricultural skills, leading to maize fields of great thickness.",
+			"Description": "Fields reduce enemy speed by -20% speed."
+		}
+	],
+	"WallSets": [
+		"structures/wallset_palisade",
+		"structures/zapo/wallset_stone"
+	],
+	"StartEntities": [
+		{
+			"Template": "structures/zapo/civil_centre"
+		},
+		{
+			"Template": "units/zapo/support_civilian",
+			"Count": 4
+		},
+		{
+			"Template": "units/zapo/infantry_spearman_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/zapo/infantry_javelineer_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/zapo/infantry_scout_b",
+			"Count": 1
+		}
+	],
+	"AINames": [
+		"Ozomatli",
+		"Huijatoo",
+		"Zaachila",
+		"Cosijoeza",
+		"Cocijopij"
+	],
+	"SkirmishReplacements":
+	{
+		"skirmish/units/default_cavalry": "units/zapo/infantry_scout_b",
+		"skirmish/units/default_infantry_ranged_b": "units/zapo/infantry_javelineer_b",
+		"skirmish/structures/default_house_10": "structures/{civ}/house"
+	},
+	"SelectableInGameSetup": true
+}
