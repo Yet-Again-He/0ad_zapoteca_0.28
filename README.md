@@ -2,4 +2,4 @@
 Adds the Zapotecs to 0ad 0.28: Boiorix
 
 Current Issue(s)
-Game freezes when right-clicking on unit/structure for more info
+None, right-click issue was resolved.
