@@ -3,11 +3,8 @@
   "affects": [ "Soldier","Ships", "Siege Ram", "Hero", "Structure" ],
   "affectedPlayers": [ "MutualAlly" ],
   "modifications": [
-    {
-      "value": "Vision/Range",
-      "add": 20
-    }
+    { "value": "Vision/Range", "multiply": 1.2 }
   ],
   "auraName": "New World",
-  "auraDescription": "Ally Soldiers, Ships, Siege, and Structures +20 meters vision range."
+  "auraDescription": "Ally Soldiers, Ships, Siege, and Structures +20% vision range."
 }

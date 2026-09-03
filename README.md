@@ -2,4 +2,4 @@
 Adds the Zapotecs to 0ad 0.28: Boiorix
 
 Current Issue(s)
-None, right-click issue was resolved.
+None, right-click issue is resolved.
