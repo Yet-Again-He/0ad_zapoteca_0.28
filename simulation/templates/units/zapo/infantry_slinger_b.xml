@@ -7,7 +7,7 @@
     <Civ>zapo</Civ>
     <Lang>nahuatl</Lang>
     <SelectionGroupName>units/zapo/infantry_slinger_b</SelectionGroupName>
-    <SpecificName>Quaquatl</SpecificName>
+    <SpecificName>Nazale'kex</SpecificName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <Icon>units/zapo/infantry_slinger.png</Icon>
     <Requirements>

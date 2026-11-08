@@ -8,7 +8,7 @@
     <Civ>zapo</Civ>
     <Lang>nahuatl</Lang>
     <GenericName>Night King</GenericName>
-    <SpecificName>Chi’ino Gol</SpecificName>
+    <SpecificName>Kwãshwana Tyo'la</SpecificName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <SelectionGroupName>units/zapo/hero_night_king</SelectionGroupName>
     <Icon>units/zapo/hero_night_king.png</Icon>

@@ -20,7 +20,7 @@
   <Identity>
     <Civ>zapo</Civ>
     <GenericName>Ball Court</GenericName>
-    <SpecificName>Tlachco</SpecificName>
+    <SpecificName>Xẽttawitta</SpecificName>
     <Classes datatype="tokens">ConquestCritical CivSpecific</Classes>
     <VisibleClasses datatype="tokens">Ballcourt</VisibleClasses>
     <Icon>structures/syssition.png</Icon>

@@ -8,7 +8,7 @@
     <Civ>zapo</Civ>
     <Lang>nahuatl</Lang>
     <GenericName>Rain Lord</GenericName>
-    <SpecificName>Chizino Yejo</SpecificName>
+    <SpecificName>Kwãshwana Kiyex</SpecificName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <SelectionGroupName>units/zapo/hero_rain_lord</SelectionGroupName>
     <Icon>units/zapo/hero_rain_lord.png</Icon>

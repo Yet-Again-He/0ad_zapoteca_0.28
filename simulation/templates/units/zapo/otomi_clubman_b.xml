@@ -11,7 +11,7 @@
     <Civ>zapo</Civ>
     <Lang>nahuatl</Lang>
     <GenericName>Otomi Warrior Ally</GenericName>
-    <SpecificName>Otomitl</SpecificName>
+    <SpecificName>Nike'yu Otomi</SpecificName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <Icon>units/zapo/merc_infantry_2.png</Icon>
     <Requirements>

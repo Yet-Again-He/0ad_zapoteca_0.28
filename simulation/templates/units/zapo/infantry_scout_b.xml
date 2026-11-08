@@ -9,7 +9,7 @@
     <Civ>zapo</Civ>
     <Lang>nahuatl</Lang>
     <GenericName>Zapotec Scout</GenericName>
-    <SpecificName>Coyo'otl</SpecificName>
+    <SpecificName>Nikwã-so</SpecificName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <Icon>units/zapo/infantry_scout.png</Icon>
   </Identity>

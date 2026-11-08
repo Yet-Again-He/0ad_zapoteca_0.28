@@ -4,7 +4,7 @@
     <Civ>zapo</Civ>
     <Lang>nahuatl</Lang>
     <SelectionGroupName>units/zapo/support_healer_b</SelectionGroupName>
-    <SpecificName>Copa Pitào</SpecificName>
+    <SpecificName>Wãniya</SpecificName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <Icon>units/zapo/support_healer.png</Icon>
   </Identity>

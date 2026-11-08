@@ -11,7 +11,7 @@
     <Civ>zapo</Civ>
     <Lang>nahuatl</Lang>
     <GenericName>Mixteca Jaguar Warrior</GenericName>
-    <SpecificName>Tu'un Nagual Yaotl</SpecificName>
+    <SpecificName>Nike'yu Mixteca</SpecificName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <Icon>units/zapo/merc_infantry_1.png</Icon>
     <Requirements>

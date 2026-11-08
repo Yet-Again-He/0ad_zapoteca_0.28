@@ -41,7 +41,7 @@
     <Civ>zapo</Civ>
     <Classes datatype="tokens">Siege</Classes>
     <GenericName>Incendiary warrior</GenericName>
-    <SpecificName>Tilo'm Bate</SpecificName>
+    <SpecificName>Nachuwi</SpecificName>
     <Tooltip>siege</Tooltip>
     <Icon>units/zapo/zapo_infantry_incendiary.png</Icon>
   </Identity>

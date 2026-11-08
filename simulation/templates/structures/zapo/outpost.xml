@@ -2,8 +2,7 @@
 <Entity parent="template_structure_defensive_outpost">
   <Identity>
     <Civ>zapo</Civ>
-    <GenericName>Zapotec Outpost</GenericName>
-    <SpecificName>Tlatepacholi</SpecificName>
+    <SpecificName>Kinilyasa Nikiinni</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>structures/hellenes/outpost.xml</Actor>

@@ -10,8 +10,8 @@
   <Identity>
     <Civ>zapo</Civ>
     <Lang>nahuatl</Lang>
-    <GenericName>Zapotec Settlers</GenericName>
-    <SpecificName>Tzapotēcatl Be'ena'a</SpecificName>
+    <GenericName>Zapotec Settler</GenericName>
+    <SpecificName>Sshbexetha</SpecificName>
     <Icon>units/zapo/support_citizen.png</Icon>
   </Identity>
   <VisualActor>

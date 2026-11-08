@@ -11,7 +11,7 @@
     <Civ>zapo</Civ>
     <Lang>nahuatl</Lang>
     <GenericName>High Priest</GenericName>
-    <SpecificName>Ba’ate’e K’iin</SpecificName>
+    <SpecificName>Cha'kiya</SpecificName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <Icon>units/zapo/hero_battle_priest_1.png</Icon>
   </Identity>

@@ -7,7 +7,7 @@
     <Civ>zapo</Civ>
     <Lang>nahuatl</Lang>
     <SelectionGroupName>units/zapo/infantry_spearman_b</SelectionGroupName>
-    <SpecificName>Tlateuijketl</SpecificName>
+    <SpecificName>Nike'yuchisllo'</SpecificName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <Icon>units/zapo/infantry_spearman.png</Icon>
   </Identity>

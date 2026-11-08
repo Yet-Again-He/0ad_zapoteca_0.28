@@ -7,7 +7,7 @@
     <Civ>zapo</Civ>
     <Lang>nahuatl</Lang>
     <SelectionGroupName>units/zapo/infantry_javelineer_b</SelectionGroupName>
-    <SpecificName>Atlatlazani</SpecificName>
+    <SpecificName>Nazale'chis</SpecificName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <Icon>units/zapo/infantry_javelinist.png</Icon>
   </Identity>

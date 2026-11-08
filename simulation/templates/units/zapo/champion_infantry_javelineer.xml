@@ -4,7 +4,7 @@
     <Civ>zapo</Civ>
     <Lang>nahuatl</Lang>
     <GenericName>Champion Javelineer</GenericName>
-    <SpecificName>Atlatl Tlatlani</SpecificName>
+    <SpecificName>Nazale'chis Nikwã-ssiya</SpecificName>
     <SelectionGroupName>units/zapo/champion_infantry_javelineer</SelectionGroupName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <Icon>units/zapo/champion_javelineer.png</Icon>

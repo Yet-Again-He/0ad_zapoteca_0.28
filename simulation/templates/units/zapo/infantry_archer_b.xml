@@ -8,7 +8,7 @@
     <Lang>nahuatl</Lang>
     <SelectionGroupName>units/zapo/infantry_archer_b</SelectionGroupName>
     <GenericName>Obsidian Archer</GenericName>
-    <SpecificName>Iztli Pachoa</SpecificName>
+    <SpecificName>Nike'yukwatha</SpecificName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <Icon>units/zapo/infantry_archer.png</Icon>
   </Identity>

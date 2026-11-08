@@ -7,7 +7,7 @@
     <Civ>zapo</Civ>
     <Lang>nahuatl</Lang>
     <GenericName>Lord Jaguar</GenericName>
-    <SpecificName>Gayo’ Betzao</SpecificName>
+    <SpecificName>Kwicchi Kwãshwana</SpecificName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <SelectionGroupName>units/zapo/hero_jaguar_king</SelectionGroupName>
     <Icon>units/zapo/hero_lord_jaguar.png</Icon>

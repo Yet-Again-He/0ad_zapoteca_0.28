@@ -6,7 +6,8 @@
   <Identity>
     <Civ>zapo</Civ>
     <Lang>nahuatl</Lang>
-    <SpecificName>Teotihuacan Atlatlazani</SpecificName>
+    <GenericName>Teotihuacan Javelinist</GenericName>
+    <SpecificName>Nike'yu Teotihuacan</SpecificName>
     <SelectionGroupName>units/zapo/merc_infantry_3</SelectionGroupName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <Icon>units/zapo/merc_infantry_3.png</Icon>

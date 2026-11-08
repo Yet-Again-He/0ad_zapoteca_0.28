@@ -2,6 +2,7 @@
 <Entity parent="template_structure_military_arsenal">
   <Identity>
     <Civ>zapo</Civ>
+    <SpecificName>Litiso’kwa</SpecificName>
   </Identity>
   <Trainer>
     <Entities datatype="tokens">

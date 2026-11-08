@@ -17,7 +17,7 @@
     <Lang>nahuatl</Lang>
     <SelectionGroupName>units/zapo/infantry_swordsman_b</SelectionGroupName>
     <GenericName>Macuahuitl Infantry</GenericName>
-    <SpecificName>Macuahuitl Yaotl</SpecificName>
+    <SpecificName>Nadile</SpecificName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <Icon>units/zapo/infantry_swordsman.png</Icon>
     <Requirements>
